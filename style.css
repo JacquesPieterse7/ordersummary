@@ -7,3 +7,50 @@
     --Desaturated-blue: hsl(224, 23%, 55%);
     --Dark-blue: hsl(223, 47%, 23%);
 }
+
+body {
+    background-image: url(./images/pattern-background-desktop.svg);
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+img {
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    height: 214px;
+    object-fit: cover;
+}
+
+#card_main {
+    max-width: 375px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 20vh;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.card_content {
+    padding: 10px;
+    margin: 10px;
+}
+
+.title {
+    text-align: center;
+    color: var(--Dark-blue);
+}
+
+p {
+    color: var(--Dark-blue);
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.card_summary {
+    text-align: center;
+}
+
+.buttons {
+    text-align: center;
+}
