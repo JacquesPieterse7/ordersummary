@@ -24,11 +24,12 @@ img {
 
 #card_main {
     max-width: 375px;
-    height: 500px;
+    height: 530px;
     margin: 0 auto;
     margin-top: 20vh;
     background-color: white;
     border-radius: 12px;
+    overflow: hidden;
 }
 
 .card_content {
@@ -39,6 +40,7 @@ img {
 .title {
     text-align: center;
     color: var(--Dark-blue);
+    margin-top: 3px;
 }
 
 p {
@@ -49,8 +51,58 @@ p {
 
 .card_summary {
     text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--Very-pale-blue);
+    border-radius: 12px;
+    padding: 12px;
+    margin-bottom: 10px;
+}
+
+.music_icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 0;
 }
 
 .buttons {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn_proceed {
+    color: var(--Very-pale-blue);
+    background-color: var(--Bright-blue);
+    display: inline;
+    border-radius: 12px;
+    border: 1px solid var(--Bright-blue);
+    padding: 12px;
+    transition: background-color .25s ease-in-out;
+}
+
+.cancel {
+    text-decoration: none;
+    color: var(--Desaturated-blue);
+    margin-top: 7px;
+}
+
+.change {
+    margin-top: 6px;
+    margin-left: 5px;
+}
+
+.attribution {
+    text-align: center;
+}
+
+.change:hover {
+    cursor: pointer;
+    color: var(--Dark-blue);
+}
+
+.btn_proceed:hover {
+    cursor: pointer;
+    background-color: var(--Desaturated-blue);
+    
 }
